@@ -1,0 +1,64 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.head
+{
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    margin-left: 450px;
+    margin-top: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.eye1 {
+    width: 108px;
+    height: 108px;
+    background-color: white;
+    position: absolute;
+    left: 79px;
+    top: 149px;
+    border-radius: 56px;
+}
+.eye2 {
+    width: 108px;
+    height: 108px;
+    background-color: white;
+    position: absolute;
+    left: 297px;
+    top: 149px;
+    border-radius: 56px;
+}
+.eyeball1 {
+    width: 36px;
+    height: 36px;
+    background-color: black;
+    position: absolute;
+    left: 35px;
+    border-radius: 30px;
+}
+.eyeball2{
+    width: 36px;
+    height: 36px;
+    background-color: black;
+    position: absolute;
+    left: 35px;
+    border-radius: 30px;
+}
+.smile {
+    width: 138px;
+    height: 31px;
+    background-color: rgb(122, 59, 14);
+    position: absolute;
+    top: 358px;
+    left: 174px;
+    border-radius: 27px;
+}
+.head:hover
+{
+    transition: 6s;
+    transform: rotate(360deg);
+}
